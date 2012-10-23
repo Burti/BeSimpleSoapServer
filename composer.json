@@ -15,7 +15,7 @@
         "burti/besimple-soap-common": "dev-master"
     },
     "autoload": {
-        "psr-0": { "BeSimple\\SoapServer": "" }
+        "psr-0": { "BeSimple\\SoapServer": "BeSimple/SoapServer/src/" }
     },
     "target-dir": "BeSimple/SoapServer"
 }
