@@ -1,0 +1,21 @@
+{
+    "name": "burti/besimple-soap-server",
+    "type": "symfony-bundle",
+    "description": "Build and consume SOAP Server based web services with Symfony2",
+    "keywords": [ "soap", "soap-server" ],
+    "homepage": "https://github.com/Burti/BeSimpleSoapServer",
+    "authors": [
+        {
+            "name": "Caio Paiola",
+            "email": "caio____@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "burti/besimple-soap-common": "*"
+    },
+    "autoload": {
+        "psr-0": { "BeSimple\\SoapServer": "" }
+    },
+    "target-dir": "BeSimple/SoapServer"
+}
